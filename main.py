@@ -6,7 +6,6 @@ from image_processing import process_image
 from pathlib import Path
 import json
 import os
-
 app = FastAPI()
 app.add_middleware(
     CORSMiddleware,
